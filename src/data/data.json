@@ -1,0 +1,2717 @@
+{
+  "aarch64": {
+    "defaults": {
+      "icon": 59800,
+      "color": "#16358C"
+    },
+    "versions": {
+      "plain": 59800
+    }
+  },
+  "adonisjs": {
+    "defaults": {
+      "icon": 59706,
+      "color": "#5A45FF"
+    },
+    "versions": {
+      "original": 59706,
+      "original-wordmark": 59705
+    }
+  },
+  "aftereffects": {
+    "defaults": {
+      "icon": 59768,
+      "color": "#1F0740"
+    },
+    "versions": {
+      "plain": 59768
+    }
+  },
+  "amazonwebservices": {
+    "defaults": {
+      "icon": 58883,
+      "color": "#F7A80D"
+    },
+    "versions": {
+      "original": 58883,
+      "plain-wordmark": 58884
+    }
+  },
+  "anaconda": {
+    "defaults": {
+      "icon": 59935,
+      "color": "#3EB049"
+    },
+    "versions": {
+      "original": 59935,
+      "original-wordmark": 59934
+    }
+  },
+  "android": {
+    "defaults": {
+      "icon": 58894,
+      "color": "#A4C439"
+    },
+    "versions": {
+      "plain": 58894,
+      "plain-wordmark": 58893
+    }
+  },
+  "androidstudio": {
+    "defaults": {
+      "icon": 59987,
+      "color": "#4285F4"
+    },
+    "versions": {
+      "plain": 59987,
+      "plain-wordmark": 59986
+    }
+  },
+  "angularjs": {
+    "defaults": {
+      "icon": 58909,
+      "color": "#C4473A"
+    },
+    "versions": {
+      "plain": 58909,
+      "plain-wordmark": 58908
+    }
+  },
+  "ansible": {
+    "defaults": {
+      "icon": 59983,
+      "color": "#1A1918"
+    },
+    "versions": {
+      "plain": 59983,
+      "plain-wordmark": 59982
+    }
+  },
+  "apache": {
+    "defaults": {
+      "icon": 58921,
+      "color": "#303284"
+    },
+    "versions": {
+      "plain": 58921,
+      "line": 58919,
+      "plain-wordmark": 58920,
+      "line-wordmark": 58918
+    }
+  },
+  "apachekafka": {
+    "defaults": {
+      "icon": 59680,
+      "color": "#231F20"
+    },
+    "versions": {
+      "original": 59680,
+      "original-wordmark": 59679
+    }
+  },
+  "appcelerator": {
+    "defaults": {
+      "icon": 58912,
+      "color": "#AC162C"
+    },
+    "versions": {
+      "original": 58912,
+      "plain-wordmark": 58913
+    }
+  },
+  "apple": {
+    "defaults": {
+      "icon": 58914,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 58914
+    }
+  },
+  "appwrite": {
+    "defaults": {
+      "icon": 59789,
+      "color": "#F02E65"
+    },
+    "versions": {
+      "plain": 59789,
+      "plain-wordmark": 59788
+    }
+  },
+  "arduino": {
+    "defaults": {
+      "icon": 59665,
+      "color": "#00979D"
+    },
+    "versions": {
+      "plain": 59665,
+      "plain-wordmark": 59664
+    }
+  },
+  "argocd": {
+    "defaults": {
+      "icon": 59941,
+      "color": "#EF7B4D"
+    },
+    "versions": {
+      "plain": 59941,
+      "plain-wordmark": 59940
+    }
+  },
+  "atom": {
+    "defaults": {
+      "icon": 58916,
+      "color": "#67595D"
+    },
+    "versions": {
+      "original": 58916,
+      "original-wordmark": 58915
+    }
+  },
+  "azure": {
+    "defaults": {
+      "icon": 59655,
+      "color": "#0089D6"
+    },
+    "versions": {
+      "plain": 59655,
+      "plain-wordmark": 59654
+    }
+  },
+  "babel": {
+    "defaults": {
+      "icon": 59900,
+      "color": "#F9DC3E"
+    },
+    "versions": {
+      "plain": 59900
+    }
+  },
+  "backbonejs": {
+    "defaults": {
+      "icon": 58925,
+      "color": "#002A41"
+    },
+    "versions": {
+      "plain": 58925,
+      "plain-wordmark": 58924
+    }
+  },
+  "bamboo": {
+    "defaults": {
+      "icon": 60001,
+      "color": "#1068E2"
+    },
+    "versions": {
+      "original": 60001,
+      "original-wordmark": 60000
+    }
+  },
+  "bash": {
+    "defaults": {
+      "icon": 59769,
+      "color": "#293138"
+    },
+    "versions": {
+      "plain": 59769
+    }
+  },
+  "behance": {
+    "defaults": {
+      "icon": 59717,
+      "color": "#0071E0"
+    },
+    "versions": {
+      "plain": 59717,
+      "plain-wordmark": 59715
+    }
+  },
+  "bitbucket": {
+    "defaults": {
+      "icon": 59995,
+      "color": "#205081"
+    },
+    "versions": {
+      "original": 59995,
+      "original-wordmark": 59994
+    }
+  },
+  "blender": {
+    "defaults": {
+      "icon": 59943,
+      "color": "#DC7B2E"
+    },
+    "versions": {
+      "original": 59943,
+      "original-wordmark": 59942
+    }
+  },
+  "bootstrap": {
+    "defaults": {
+      "icon": 59966,
+      "color": "#59407F"
+    },
+    "versions": {
+      "plain": 59966,
+      "plain-wordmark": 59965
+    }
+  },
+  "bower": {
+    "defaults": {
+      "icon": 58959,
+      "color": "#EF5734"
+    },
+    "versions": {
+      "plain": 58959,
+      "line": 58929,
+      "plain-wordmark": 58958,
+      "line-wordmark": 58928
+    }
+  },
+  "bulma": {
+    "defaults": {
+      "icon": 59846,
+      "color": "#00D1B2"
+    },
+    "versions": {
+      "plain": 59846
+    }
+  },
+  "c": {
+    "defaults": {
+      "icon": 58937,
+      "color": "#03599C"
+    },
+    "versions": {
+      "plain": 58937,
+      "line": 58936
+    }
+  },
+  "cakephp": {
+    "defaults": {
+      "icon": 59873,
+      "color": "#D43D44"
+    },
+    "versions": {
+      "plain": 59873,
+      "plain-wordmark": 59849
+    }
+  },
+  "canva": {
+    "defaults": {
+      "icon": 59674,
+      "color": "#00C4CC"
+    },
+    "versions": {
+      "original": 59674
+    }
+  },
+  "centos": {
+    "defaults": {
+      "icon": 59653,
+      "color": "#932178"
+    },
+    "versions": {
+      "plain": 59653,
+      "plain-wordmark": 59652
+    }
+  },
+  "ceylon": {
+    "defaults": {
+      "icon": 59716,
+      "color": "#AB710A"
+    },
+    "versions": {
+      "plain": 59716
+    }
+  },
+  "chrome": {
+    "defaults": {
+      "icon": 58982,
+      "color": "#CE4E4E"
+    },
+    "versions": {
+      "plain": 58982,
+      "plain-wordmark": 58981
+    }
+  },
+  "circleci": {
+    "defaults": {
+      "icon": 59853,
+      "color": "#343434"
+    },
+    "versions": {
+      "plain": 59853,
+      "plain-wordmark": 59852
+    }
+  },
+  "clojure": {
+    "defaults": {
+      "icon": 59746,
+      "color": "#5881D8"
+    },
+    "versions": {
+      "line": 59746
+    }
+  },
+  "clojurescript": {
+    "defaults": {
+      "icon": 59711,
+      "color": "#96CA4B"
+    },
+    "versions": {
+      "plain": 59711
+    }
+  },
+  "cmake": {
+    "defaults": {
+      "icon": 59946,
+      "color": "#0E8A16"
+    },
+    "versions": {
+      "plain": 59946,
+      "plain-wordmark": 59945
+    }
+  },
+  "codecov": {
+    "defaults": {
+      "icon": 59854,
+      "color": "#E0225C"
+    },
+    "versions": {
+      "plain": 59854
+    }
+  },
+  "codeigniter": {
+    "defaults": {
+      "icon": 58984,
+      "color": "#EE4323"
+    },
+    "versions": {
+      "plain": 58984,
+      "plain-wordmark": 58983
+    }
+  },
+  "codepen": {
+    "defaults": {
+      "icon": 59742,
+      "color": "#231F20"
+    },
+    "versions": {
+      "plain": 59742,
+      "original-wordmark": 59741
+    }
+  },
+  "coffeescript": {
+    "defaults": {
+      "icon": 58986,
+      "color": "#28334C"
+    },
+    "versions": {
+      "original": 58986,
+      "original-wordmark": 58985
+    }
+  },
+  "composer": {
+    "defaults": {
+      "icon": 59767,
+      "color": "#000000"
+    },
+    "versions": {
+      "line": 59767,
+      "line-wordmark": 59766
+    }
+  },
+  "confluence": {
+    "defaults": {
+      "icon": 59997,
+      "color": "#205081"
+    },
+    "versions": {
+      "original": 59997,
+      "original-wordmark": 59996
+    }
+  },
+  "couchdb": {
+    "defaults": {
+      "icon": 59721,
+      "color": "#E42528"
+    },
+    "versions": {
+      "plain": 59721,
+      "plain-wordmark": 59720
+    }
+  },
+  "cplusplus": {
+    "defaults": {
+      "icon": 58933,
+      "color": "#9C033A"
+    },
+    "versions": {
+      "plain": 58933,
+      "line": 58932
+    }
+  },
+  "crystal": {
+    "defaults": {
+      "icon": 59870,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59870,
+      "original-wordmark": 59869
+    }
+  },
+  "csharp": {
+    "defaults": {
+      "icon": 58935,
+      "color": "#68217A"
+    },
+    "versions": {
+      "plain": 58935,
+      "line": 58934
+    }
+  },
+  "css3": {
+    "defaults": {
+      "icon": 59001,
+      "color": "#3D8FC6"
+    },
+    "versions": {
+      "plain": 59001,
+      "plain-wordmark": 59000
+    }
+  },
+  "cucumber": {
+    "defaults": {
+      "icon": 59929,
+      "color": "#00A818"
+    },
+    "versions": {
+      "plain": 59929,
+      "plain-wordmark": 59930
+    }
+  },
+  "d3js": {
+    "defaults": {
+      "icon": 59923,
+      "color": "#F7974E"
+    },
+    "versions": {
+      "original": 59923,
+      "plain": 59922
+    }
+  },
+  "dart": {
+    "defaults": {
+      "icon": 59825,
+      "color": "#00A8E1"
+    },
+    "versions": {
+      "plain": 59825,
+      "plain-wordmark": 59824
+    }
+  },
+  "debian": {
+    "defaults": {
+      "icon": 59007,
+      "color": "#A80030"
+    },
+    "versions": {
+      "plain": 59007,
+      "plain-wordmark": 59006
+    }
+  },
+  "denojs": {
+    "defaults": {
+      "icon": 59678,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59678,
+      "original-wordmark": 59677
+    }
+  },
+  "devicon": {
+    "defaults": {
+      "icon": 59964,
+      "color": "#60BE86"
+    },
+    "versions": {
+      "plain": 59964,
+      "line": 59962,
+      "plain-wordmark": 59963,
+      "line-wordmark": 59961
+    }
+  },
+  "digitalocean": {
+    "defaults": {
+      "icon": 59822,
+      "color": "#0080FF"
+    },
+    "versions": {
+      "plain": 59822,
+      "plain-wordmark": 59821
+    }
+  },
+  "discordjs": {
+    "defaults": {
+      "icon": 59956,
+      "color": "#2A2C3E"
+    },
+    "versions": {
+      "plain": 59956,
+      "plain-wordmark": 59955
+    }
+  },
+  "django": {
+    "defaults": {
+      "icon": 59960,
+      "color": "#092E20"
+    },
+    "versions": {
+      "plain": 59960,
+      "plain-wordmark": 59959
+    }
+  },
+  "docker": {
+    "defaults": {
+      "icon": 58911,
+      "color": "#019BC6"
+    },
+    "versions": {
+      "plain": 58911,
+      "plain-wordmark": 58910
+    }
+  },
+  "doctrine": {
+    "defaults": {
+      "icon": 58917,
+      "color": "#F56D39"
+    },
+    "versions": {
+      "plain": 58917,
+      "line": 58905,
+      "plain-wordmark": 58906,
+      "line-wordmark": 58904
+    }
+  },
+  "dot": {
+    "defaults": {
+      "icon": 59091
+    },
+    "versions": {
+      "net-plain-wordmark": 59091,
+      "net-plain": 59092
+    }
+  },
+  "dotnetcore": {
+    "defaults": {
+      "icon": 59823,
+      "color": "#623697"
+    },
+    "versions": {
+      "plain": 59823
+    }
+  },
+  "dropwizard": {
+    "defaults": {
+      "icon": 59947,
+      "color": "#24265D"
+    },
+    "versions": {
+      "plain": 59947
+    }
+  },
+  "drupal": {
+    "defaults": {
+      "icon": 59107,
+      "color": "#0073BA"
+    },
+    "versions": {
+      "plain": 59107,
+      "plain-wordmark": 59106
+    }
+  },
+  "electron": {
+    "defaults": {
+      "icon": 59735,
+      "color": "#47848F"
+    },
+    "versions": {
+      "original": 59735,
+      "original-wordmark": 59734
+    }
+  },
+  "eleventy": {
+    "defaults": {
+      "icon": 59787,
+      "color": "#1F1F1F"
+    },
+    "versions": {
+      "plain": 59787
+    }
+  },
+  "elixir": {
+    "defaults": {
+      "icon": 59799,
+      "color": "#380A4D"
+    },
+    "versions": {
+      "plain": 59799,
+      "plain-wordmark": 59798
+    }
+  },
+  "elm": {
+    "defaults": {
+      "icon": 59848,
+      "color": "#34495E"
+    },
+    "versions": {
+      "plain": 59848,
+      "plain-wordmark": 59749
+    }
+  },
+  "embeddedc": {
+    "defaults": {
+      "icon": 59837,
+      "color": "#444444"
+    },
+    "versions": {
+      "plain": 59837,
+      "plain-wordmark": 59836
+    }
+  },
+  "ember": {
+    "defaults": {
+      "icon": 59733,
+      "color": "#DD3F24"
+    },
+    "versions": {
+      "original-wordmark": 59733
+    }
+  },
+  "erlang": {
+    "defaults": {
+      "icon": 58903,
+      "color": "#A90533"
+    },
+    "versions": {
+      "plain": 58903,
+      "plain-wordmark": 58902
+    }
+  },
+  "eslint": {
+    "defaults": {
+      "icon": 59989,
+      "color": "#4B32C3"
+    },
+    "versions": {
+      "original": 59989,
+      "original-wordmark": 59988
+    }
+  },
+  "express": {
+    "defaults": {
+      "icon": 59876,
+      "color": "#444"
+    },
+    "versions": {
+      "original": 59876,
+      "original-wordmark": 59875
+    }
+  },
+  "facebook": {
+    "defaults": {
+      "icon": 59901,
+      "color": "#3D5A98"
+    },
+    "versions": {
+      "plain": 59901
+    }
+  },
+  "fastapi": {
+    "defaults": {
+      "icon": 59702,
+      "color": "#009688"
+    },
+    "versions": {
+      "plain": 59702,
+      "plain-wordmark": 59671
+    }
+  },
+  "feathersjs": {
+    "defaults": {
+      "icon": 59704,
+      "color": "#333333"
+    },
+    "versions": {
+      "original": 59704
+    }
+  },
+  "fedora": {
+    "defaults": {
+      "icon": 59998,
+      "color": "#294172"
+    },
+    "versions": {
+      "plain": 59998
+    }
+  },
+  "figma": {
+    "defaults": {
+      "icon": 59820,
+      "color": "#F24E1E"
+    },
+    "versions": {
+      "plain": 59820
+    }
+  },
+  "filezilla": {
+    "defaults": {
+      "icon": 59682,
+      "color": "#B30000"
+    },
+    "versions": {
+      "plain": 59682,
+      "plain-wordmark": 59681
+    }
+  },
+  "firebase": {
+    "defaults": {
+      "icon": 59786,
+      "color": "#F58220"
+    },
+    "versions": {
+      "plain": 59786,
+      "plain-wordmark": 59785
+    }
+  },
+  "firefox": {
+    "defaults": {
+      "icon": 59230,
+      "color": "#DD732A"
+    },
+    "versions": {
+      "plain": 59230,
+      "plain-wordmark": 59229
+    }
+  },
+  "flask": {
+    "defaults": {
+      "icon": 59784,
+      "color": "#010101"
+    },
+    "versions": {
+      "original": 59784,
+      "original-wordmark": 59783
+    }
+  },
+  "flutter": {
+    "defaults": {
+      "icon": 59765,
+      "color": "#3FB6D3"
+    },
+    "versions": {
+      "plain": 59765
+    }
+  },
+  "foundation": {
+    "defaults": {
+      "icon": 59299,
+      "color": "#008CBA"
+    },
+    "versions": {
+      "plain": 59299,
+      "plain-wordmark": 59298
+    }
+  },
+  "fsharp": {
+    "defaults": {
+      "icon": 59797,
+      "color": "#378BBA"
+    },
+    "versions": {
+      "plain": 59797
+    }
+  },
+  "gatling": {
+    "defaults": {
+      "icon": 59908,
+      "color": "#E77500"
+    },
+    "versions": {
+      "plain": 59908,
+      "plain-wordmark": 59909
+    }
+  },
+  "gatsby": {
+    "defaults": {
+      "icon": 59764,
+      "color": "#64328B"
+    },
+    "versions": {
+      "plain": 59764,
+      "plain-wordmark": 59763
+    }
+  },
+  "gcc": {
+    "defaults": {
+      "icon": 59667,
+      "color": "#FFCFAB"
+    },
+    "versions": {
+      "plain": 59667
+    }
+  },
+  "gentoo": {
+    "defaults": {
+      "icon": 60007,
+      "color": "#9991D9"
+    },
+    "versions": {
+      "plain": 60007,
+      "plain-wordmark": 60008
+    }
+  },
+  "gimp": {
+    "defaults": {
+      "icon": 58931,
+      "color": "#716955"
+    },
+    "versions": {
+      "plain": 58931
+    }
+  },
+  "git": {
+    "defaults": {
+      "icon": 59304,
+      "color": "#F34F29"
+    },
+    "versions": {
+      "plain": 59304,
+      "plain-wordmark": 59303
+    }
+  },
+  "github": {
+    "defaults": {
+      "icon": 59920,
+      "color": "#181616"
+    },
+    "versions": {
+      "original": 59920,
+      "original-wordmark": 59921
+    }
+  },
+  "gitlab": {
+    "defaults": {
+      "icon": 59918,
+      "color": "#E24329"
+    },
+    "versions": {
+      "plain": 59918,
+      "plain-wordmark": 59919
+    }
+  },
+  "gitter": {
+    "defaults": {
+      "icon": 59819,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59819,
+      "plain-wordmark": 59818
+    }
+  },
+  "go": {
+    "defaults": {
+      "icon": 59657,
+      "color": "#00ACD7"
+    },
+    "versions": {
+      "plain": 59657,
+      "line": 59656,
+      "original-wordmark": 59658
+    }
+  },
+  "godot": {
+    "defaults": {
+      "icon": 59864,
+      "color": "#478CBF"
+    },
+    "versions": {
+      "plain": 59864,
+      "plain-wordmark": 59863
+    }
+  },
+  "google": {
+    "defaults": {
+      "icon": 59903,
+      "color": "#587DBD"
+    },
+    "versions": {
+      "plain": 59903,
+      "plain-wordmark": 59902
+    }
+  },
+  "googlecloud": {
+    "defaults": {
+      "icon": 59782,
+      "color": "#557EBF"
+    },
+    "versions": {
+      "plain": 59782,
+      "plain-wordmark": 59781
+    }
+  },
+  "gradle": {
+    "defaults": {
+      "icon": 59928,
+      "color": "#02303A"
+    },
+    "versions": {
+      "plain": 59928,
+      "plain-wordmark": 59633
+    }
+  },
+  "grafana": {
+    "defaults": {
+      "icon": 59981,
+      "color": "#E78040"
+    },
+    "versions": {
+      "original": 59981,
+      "original-wordmark": 59980
+    }
+  },
+  "grails": {
+    "defaults": {
+      "icon": 59740,
+      "color": "#FEB672"
+    },
+    "versions": {
+      "plain": 59740
+    }
+  },
+  "graphql": {
+    "defaults": {
+      "icon": 59817,
+      "color": "#E434AA"
+    },
+    "versions": {
+      "plain": 59817,
+      "plain-wordmark": 59816
+    }
+  },
+  "groovy": {
+    "defaults": {
+      "icon": 59736,
+      "color": "#619CBC"
+    },
+    "versions": {
+      "plain": 59736
+    }
+  },
+  "grunt": {
+    "defaults": {
+      "icon": 59371,
+      "color": "#FCAA1A"
+    },
+    "versions": {
+      "plain": 59371,
+      "line": 59306,
+      "plain-wordmark": 59370,
+      "line-wordmark": 59305
+    }
+  },
+  "gulp": {
+    "defaults": {
+      "icon": 59372,
+      "color": "#EB4A4B"
+    },
+    "versions": {
+      "plain": 59372
+    }
+  },
+  "handlebars": {
+    "defaults": {
+      "icon": 59723,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59723,
+      "plain-wordmark": 59722
+    }
+  },
+  "haskell": {
+    "defaults": {
+      "icon": 59743,
+      "color": "#5E5185"
+    },
+    "versions": {
+      "plain": 59743,
+      "plain-wordmark": 59744
+    }
+  },
+  "haxe": {
+    "defaults": {
+      "icon": 59762,
+      "color": "#EA8220"
+    },
+    "versions": {
+      "plain": 59762
+    }
+  },
+  "heroku": {
+    "defaults": {
+      "icon": 58895,
+      "color": "#6762A6"
+    },
+    "versions": {
+      "plain": 58895,
+      "line": 58891,
+      "plain-wordmark": 58892,
+      "line-wordmark": 58890
+    }
+  },
+  "html5": {
+    "defaults": {
+      "icon": 59383,
+      "color": "#E54D26"
+    },
+    "versions": {
+      "plain": 59383,
+      "plain-wordmark": 59382
+    }
+  },
+  "hugo": {
+    "defaults": {
+      "icon": 59979,
+      "color": "#FF4088"
+    },
+    "versions": {
+      "plain": 59979,
+      "plain-wordmark": 59978
+    }
+  },
+  "ie10": {
+    "defaults": {
+      "icon": 59384,
+      "color": "#1EBBEE"
+    },
+    "versions": {
+      "original": 59384
+    }
+  },
+  "ifttt": {
+    "defaults": {
+      "icon": 59973,
+      "color": "#000"
+    },
+    "versions": {
+      "original": 59973
+    }
+  },
+  "illustrator": {
+    "defaults": {
+      "icon": 59386,
+      "color": "#FAA625"
+    },
+    "versions": {
+      "plain": 59386,
+      "line": 59385
+    }
+  },
+  "inkscape": {
+    "defaults": {
+      "icon": 59445,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59445,
+      "plain-wordmark": 59444
+    }
+  },
+  "intellij": {
+    "defaults": {
+      "icon": 59878,
+      "color": "#136BA2"
+    },
+    "versions": {
+      "plain": 59878,
+      "plain-wordmark": 59877
+    }
+  },
+  "ionic": {
+    "defaults": {
+      "icon": 59732,
+      "color": "#4E8EF7"
+    },
+    "versions": {
+      "original": 59732,
+      "original-wordmark": 59731
+    }
+  },
+  "jamstack": {
+    "defaults": {
+      "icon": 59676,
+      "color": "#F0047F"
+    },
+    "versions": {
+      "original": 59676,
+      "plain-wordmark": 59675
+    }
+  },
+  "jasmine": {
+    "defaults": {
+      "icon": 59907,
+      "color": "#8A4182"
+    },
+    "versions": {
+      "wordmark": 59907,
+      "plain": 59906
+    }
+  },
+  "java": {
+    "defaults": {
+      "icon": 59458,
+      "color": "#EA2D2E"
+    },
+    "versions": {
+      "plain": 59458,
+      "plain-wordmark": 59457
+    }
+  },
+  "javascript": {
+    "defaults": {
+      "icon": 59461,
+      "color": "#F0DB4F"
+    },
+    "versions": {
+      "plain": 59461
+    }
+  },
+  "jeet": {
+    "defaults": {
+      "icon": 59916,
+      "color": "#FF664A"
+    },
+    "versions": {
+      "plain": 59916,
+      "plain-wordmark": 59917
+    }
+  },
+  "jenkins": {
+    "defaults": {
+      "icon": 59760,
+      "color": "#F0D6B7"
+    },
+    "versions": {
+      "plain": 59760,
+      "line": 59761
+    }
+  },
+  "jest": {
+    "defaults": {
+      "icon": 59851,
+      "color": "#99425B"
+    },
+    "versions": {
+      "plain": 59851
+    }
+  },
+  "jetbrains": {
+    "defaults": {
+      "icon": 59944,
+      "color": "#FDCC21"
+    },
+    "versions": {
+      "plain": 59944
+    }
+  },
+  "jira": {
+    "defaults": {
+      "icon": 60003,
+      "color": "#2684FF"
+    },
+    "versions": {
+      "plain": 60003,
+      "plain-wordmark": 60002
+    }
+  },
+  "jquery": {
+    "defaults": {
+      "icon": 59466,
+      "color": "#0769AD"
+    },
+    "versions": {
+      "plain": 59466,
+      "plain-wordmark": 59465
+    }
+  },
+  "julia": {
+    "defaults": {
+      "icon": 59868,
+      "color": "#28A745"
+    },
+    "versions": {
+      "plain": 59868,
+      "plain-wordmark": 59867
+    }
+  },
+  "jupyter": {
+    "defaults": {
+      "icon": 59796,
+      "color": "#F37726"
+    },
+    "versions": {
+      "plain": 59796,
+      "plain-wordmark": 59795
+    }
+  },
+  "k3s": {
+    "defaults": {
+      "icon": 59926,
+      "color": "#FFC519"
+    },
+    "versions": {
+      "original": 59926,
+      "plain-wordmark": 59925
+    }
+  },
+  "kaggle": {
+    "defaults": {
+      "icon": 59661,
+      "color": "#20BEFF"
+    },
+    "versions": {
+      "original": 59661,
+      "original-wordmark": 59660
+    }
+  },
+  "karma": {
+    "defaults": {
+      "icon": 59850,
+      "color": "#56C5A8"
+    },
+    "versions": {
+      "plain": 59850
+    }
+  },
+  "knockout": {
+    "defaults": {
+      "icon": 59842,
+      "color": "#E42E16"
+    },
+    "versions": {
+      "plain-wordmark": 59842
+    }
+  },
+  "kotlin": {
+    "defaults": {
+      "icon": 59759,
+      "color": "#7C6DB2"
+    },
+    "versions": {
+      "plain": 59759,
+      "plain-wordmark": 59758
+    }
+  },
+  "krakenjs": {
+    "defaults": {
+      "icon": 59472,
+      "color": "#0081C2"
+    },
+    "versions": {
+      "plain": 59472,
+      "plain-wordmark": 59471
+    }
+  },
+  "kubernetes": {
+    "defaults": {
+      "icon": 59780,
+      "color": "#486BB3"
+    },
+    "versions": {
+      "plain": 59780,
+      "plain-wordmark": 59779
+    }
+  },
+  "labview": {
+    "defaults": {
+      "icon": 59839,
+      "color": "#FED500"
+    },
+    "versions": {
+      "plain": 59839,
+      "plain-wordmark": 59838
+    }
+  },
+  "laravel": {
+    "defaults": {
+      "icon": 59474,
+      "color": "#FD4F31"
+    },
+    "versions": {
+      "plain": 59474,
+      "plain-wordmark": 59473
+    }
+  },
+  "latex": {
+    "defaults": {
+      "icon": 59990,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59990
+    }
+  },
+  "less": {
+    "defaults": {
+      "icon": 59475,
+      "color": "#2A4D80"
+    },
+    "versions": {
+      "plain-wordmark": 59475
+    }
+  },
+  "linkedin": {
+    "defaults": {
+      "icon": 59719,
+      "color": "#0076B2"
+    },
+    "versions": {
+      "plain": 59719,
+      "plain-wordmark": 59718
+    }
+  },
+  "linux": {
+    "defaults": {
+      "icon": 60188,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 60188
+    }
+  },
+  "lua": {
+    "defaults": {
+      "icon": 59815,
+      "color": "#000080"
+    },
+    "versions": {
+      "plain": 59815,
+      "plain-wordmark": 59814
+    }
+  },
+  "magento": {
+    "defaults": {
+      "icon": 59857,
+      "color": "#F26322"
+    },
+    "versions": {
+      "original": 59857,
+      "line": 59855,
+      "original-wordmark": 59856
+    }
+  },
+  "markdown": {
+    "defaults": {
+      "icon": 59714,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59714
+    }
+  },
+  "materialui": {
+    "defaults": {
+      "icon": 59757,
+      "color": "#1FA6CA"
+    },
+    "versions": {
+      "plain": 59757
+    }
+  },
+  "matlab": {
+    "defaults": {
+      "icon": 59710,
+      "color": "#6DD0C7"
+    },
+    "versions": {
+      "plain": 59710,
+      "line": 59709
+    }
+  },
+  "maya": {
+    "defaults": {
+      "icon": 59970,
+      "color": "#149B9A"
+    },
+    "versions": {
+      "plain": 59970,
+      "plain-wordmark": 59969
+    }
+  },
+  "meteor": {
+    "defaults": {
+      "icon": 58889,
+      "color": "#DF5052"
+    },
+    "versions": {
+      "plain": 58889,
+      "plain-wordmark": 58888
+    }
+  },
+  "microsoftsqlserver": {
+    "defaults": {
+      "icon": 59774,
+      "color": "#909DAA"
+    },
+    "versions": {
+      "plain": 59774,
+      "plain-wordmark": 59773
+    }
+  },
+  "minitab": {
+    "defaults": {
+      "icon": 59845,
+      "color": "#8DC63F"
+    },
+    "versions": {
+      "plain": 59845
+    }
+  },
+  "mocha": {
+    "defaults": {
+      "icon": 59905,
+      "color": "#8D6748"
+    },
+    "versions": {
+      "": 59905,
+      "plain": 59745
+    }
+  },
+  "modx": {
+    "defaults": {
+      "icon": 59841,
+      "color": "#00DECC"
+    },
+    "versions": {
+      "plain": 59841,
+      "plain-wordmark": 59840
+    }
+  },
+  "mongodb": {
+    "defaults": {
+      "icon": 60228,
+      "color": "#4FAA41"
+    },
+    "versions": {
+      "plain": 60228,
+      "plain-wordmark": 60227
+    }
+  },
+  "moodle": {
+    "defaults": {
+      "icon": 60251,
+      "color": "#F7931E"
+    },
+    "versions": {
+      "plain": 60251,
+      "plain-wordmark": 60250
+    }
+  },
+  "msdos": {
+    "defaults": {
+      "icon": 59663,
+      "color": "#FF0000"
+    },
+    "versions": {
+      "line": 59663
+    }
+  },
+  "mysql": {
+    "defaults": {
+      "icon": 60257,
+      "color": "#00618A"
+    },
+    "versions": {
+      "plain": 60257,
+      "plain-wordmark": 60256
+    }
+  },
+  "neo4j": {
+    "defaults": {
+      "icon": 59695,
+      "color": "#018BFF"
+    },
+    "versions": {
+      "plain": 59695,
+      "plain-wordmark": 59694
+    }
+  },
+  "nestjs": {
+    "defaults": {
+      "icon": 59756,
+      "color": "#DF234F"
+    },
+    "versions": {
+      "plain": 59756,
+      "plain-wordmark": 59755
+    }
+  },
+  "networkx": {
+    "defaults": {
+      "icon": 59952,
+      "color": "#2C7FB8"
+    },
+    "versions": {
+      "original": 59952
+    }
+  },
+  "nextjs": {
+    "defaults": {
+      "icon": 59813,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59813,
+      "line": 59812,
+      "original-wordmark": 59811
+    }
+  },
+  "nginx": {
+    "defaults": {
+      "icon": 58901,
+      "color": "#090"
+    },
+    "versions": {
+      "original": 58901
+    }
+  },
+  "nixos": {
+    "defaults": {
+      "icon": 59826,
+      "color": "#5277C3"
+    },
+    "versions": {
+      "plain": 59826,
+      "plain-wordmark": 59794
+    }
+  },
+  "nodejs": {
+    "defaults": {
+      "icon": 60266,
+      "color": "#83CD29"
+    },
+    "versions": {
+      "plain": 60266,
+      "plain-wordmark": 60265
+    }
+  },
+  "nodewebkit": {
+    "defaults": {
+      "icon": 58900,
+      "color": "#3D3B47"
+    },
+    "versions": {
+      "plain": 58900,
+      "line": 58898,
+      "plain-wordmark": 58899,
+      "line-wordmark": 58897
+    }
+  },
+  "npm": {
+    "defaults": {
+      "icon": 59730,
+      "color": "#CB3837"
+    },
+    "versions": {
+      "original-wordmark": 59730
+    }
+  },
+  "nuget": {
+    "defaults": {
+      "icon": 59949,
+      "color": "#004880"
+    },
+    "versions": {
+      "original": 59949,
+      "original-wordmark": 59948
+    }
+  },
+  "numpy": {
+    "defaults": {
+      "icon": 59708,
+      "color": "#4DABCF"
+    },
+    "versions": {
+      "original": 59708,
+      "original-wordmark": 59707
+    }
+  },
+  "nuxtjs": {
+    "defaults": {
+      "icon": 59697,
+      "color": "#00C48D"
+    },
+    "versions": {
+      "plain": 59697,
+      "plain-wordmark": 59696
+    }
+  },
+  "objectivec": {
+    "defaults": {
+      "icon": 59778,
+      "color": "#0B5A9D"
+    },
+    "versions": {
+      "plain": 59778
+    }
+  },
+  "ocaml": {
+    "defaults": {
+      "icon": 59793,
+      "color": "#F18803"
+    },
+    "versions": {
+      "plain": 59793,
+      "plain-wordmark": 59792
+    }
+  },
+  "openal": {
+    "defaults": {
+      "icon": 59659,
+      "color": "#7E000D"
+    },
+    "versions": {
+      "plain": 59659
+    }
+  },
+  "opencv": {
+    "defaults": {
+      "icon": 59924,
+      "color": "#128DFF"
+    },
+    "versions": {
+      "plain": 59924,
+      "plain-wordmark": 59703
+    }
+  },
+  "opengl": {
+    "defaults": {
+      "icon": 59683,
+      "color": "#5586A4"
+    },
+    "versions": {
+      "plain": 59683
+    }
+  },
+  "opensuse": {
+    "defaults": {
+      "icon": 60010,
+      "color": "#73BA25"
+    },
+    "versions": {
+      "plain": 60010,
+      "plain-wordmark": 60009
+    }
+  },
+  "opera": {
+    "defaults": {
+      "icon": 59686,
+      "color": "#F7192D"
+    },
+    "versions": {
+      "plain": 59686,
+      "plain-wordmark": 59685
+    }
+  },
+  "oracle": {
+    "defaults": {
+      "icon": 60267,
+      "color": "#EA1B22"
+    },
+    "versions": {
+      "original": 60267
+    }
+  },
+  "packer": {
+    "defaults": {
+      "icon": 59933,
+      "color": "#1D94DD"
+    },
+    "versions": {
+      "original": 59933,
+      "original-wordmark": 59927
+    }
+  },
+  "pandas": {
+    "defaults": {
+      "icon": 59651,
+      "color": "#130754"
+    },
+    "versions": {
+      "original": 59651,
+      "original-wordmark": 59650
+    }
+  },
+  "perl": {
+    "defaults": {
+      "icon": 59827,
+      "color": "#212177"
+    },
+    "versions": {
+      "plain": 59827
+    }
+  },
+  "phalcon": {
+    "defaults": {
+      "icon": 59844,
+      "color": "#76C39B"
+    },
+    "versions": {
+      "plain": 59844
+    }
+  },
+  "phoenix": {
+    "defaults": {
+      "icon": 59810,
+      "color": "#F15524"
+    },
+    "versions": {
+      "plain": 59810,
+      "plain-wordmark": 59809
+    }
+  },
+  "photoshop": {
+    "defaults": {
+      "icon": 60269,
+      "color": "#80B5E2"
+    },
+    "versions": {
+      "plain": 60269,
+      "line": 60268
+    }
+  },
+  "php": {
+    "defaults": {
+      "icon": 60273,
+      "color": "#6181B6"
+    },
+    "versions": {
+      "plain": 60273
+    }
+  },
+  "phpstorm": {
+    "defaults": {
+      "icon": 59910,
+      "color": "#5058A6"
+    },
+    "versions": {
+      "plain": 59910,
+      "plain-wordmark": 59911
+    }
+  },
+  "podman": {
+    "defaults": {
+      "icon": 59951,
+      "color": "#872B9E"
+    },
+    "versions": {
+      "plain": 59951,
+      "plain-wordmark": 59950
+    }
+  },
+  "polygon": {
+    "defaults": {
+      "icon": 59968,
+      "color": "#38285B"
+    },
+    "versions": {
+      "plain": 59968
+    }
+  },
+  "postgresql": {
+    "defaults": {
+      "icon": 60285,
+      "color": "#336791"
+    },
+    "versions": {
+      "plain": 60285,
+      "plain-wordmark": 60284
+    }
+  },
+  "premierepro": {
+    "defaults": {
+      "icon": 59754,
+      "color": "#2A0634"
+    },
+    "versions": {
+      "plain": 59754
+    }
+  },
+  "processing": {
+    "defaults": {
+      "icon": 59701,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59701,
+      "plain-wordmark": 59700
+    }
+  },
+  "prometheus": {
+    "defaults": {
+      "icon": 59937,
+      "color": "#E75225"
+    },
+    "versions": {
+      "original": 59937,
+      "original-wordmark": 59936
+    }
+  },
+  "protractor": {
+    "defaults": {
+      "icon": 59931,
+      "color": "#B7111D"
+    },
+    "versions": {
+      "plain": 59931,
+      "plain-wordmark": 59932
+    }
+  },
+  "putty": {
+    "defaults": {
+      "icon": 59684,
+      "color": "#0000FC"
+    },
+    "versions": {
+      "plain": 59684
+    }
+  },
+  "pycharm": {
+    "defaults": {
+      "icon": 59880,
+      "color": "#4D8548"
+    },
+    "versions": {
+      "plain": 59880,
+      "plain-wordmark": 59879
+    }
+  },
+  "pytest": {
+    "defaults": {
+      "icon": 59670,
+      "color": "#009FE3"
+    },
+    "versions": {
+      "plain": 59670,
+      "plain-wordmark": 59662
+    }
+  },
+  "python": {
+    "defaults": {
+      "icon": 60297,
+      "color": "#FFD845"
+    },
+    "versions": {
+      "plain": 60297,
+      "plain-wordmark": 60296
+    }
+  },
+  "pytorch": {
+    "defaults": {
+      "icon": 59975,
+      "color": "#EE4C2C"
+    },
+    "versions": {
+      "original": 59975,
+      "plain-wordmark": 59974
+    }
+  },
+  "qt": {
+    "defaults": {
+      "icon": 59666,
+      "color": "#41CD52"
+    },
+    "versions": {
+      "original": 59666
+    }
+  },
+  "r": {
+    "defaults": {
+      "icon": 59791,
+      "color": "#2369BC"
+    },
+    "versions": {
+      "original": 59791,
+      "plain": 59790
+    }
+  },
+  "rails": {
+    "defaults": {
+      "icon": 59808,
+      "color": "#CC0000"
+    },
+    "versions": {
+      "plain": 59808,
+      "plain-wordmark": 59807
+    }
+  },
+  "raspberrypi": {
+    "defaults": {
+      "icon": 59835,
+      "color": "#C51850"
+    },
+    "versions": {
+      "line": 59835,
+      "line-wordmark": 59834
+    }
+  },
+  "react": {
+    "defaults": {
+      "icon": 58881,
+      "color": "#61DAFB"
+    },
+    "versions": {
+      "original": 58881,
+      "original-wordmark": 58880
+    }
+  },
+  "rect": {
+    "defaults": {
+      "icon": 59999,
+      "color": "#262626"
+    },
+    "versions": {
+      "plain": 59999
+    }
+  },
+  "redhat": {
+    "defaults": {
+      "icon": 58923,
+      "color": "#E93442"
+    },
+    "versions": {
+      "plain": 58923,
+      "plain-wordmark": 58922
+    }
+  },
+  "redis": {
+    "defaults": {
+      "icon": 58887,
+      "color": "#D82C20"
+    },
+    "versions": {
+      "plain": 58887,
+      "plain-wordmark": 58886
+    }
+  },
+  "redux": {
+    "defaults": {
+      "icon": 59748,
+      "color": "#764ABC"
+    },
+    "versions": {
+      "original": 59748
+    }
+  },
+  "rocksdb": {
+    "defaults": {
+      "icon": 59777,
+      "color": "#F5BE17"
+    },
+    "versions": {
+      "plain": 59777
+    }
+  },
+  "rspec": {
+    "defaults": {
+      "icon": 59939,
+      "color": "#6DE1FA"
+    },
+    "versions": {
+      "original": 59939,
+      "original-wordmark": 59938
+    }
+  },
+  "rstudio": {
+    "defaults": {
+      "icon": 59843,
+      "color": "#75AADB"
+    },
+    "versions": {
+      "plain": 59843
+    }
+  },
+  "ruby": {
+    "defaults": {
+      "icon": 60362,
+      "color": "#D91404"
+    },
+    "versions": {
+      "plain": 60362,
+      "plain-wordmark": 60361
+    }
+  },
+  "rubymine": {
+    "defaults": {
+      "icon": 59882,
+      "color": "#C12C4C"
+    },
+    "versions": {
+      "plain": 59882,
+      "plain-wordmark": 59881
+    }
+  },
+  "rust": {
+    "defaults": {
+      "icon": 59737,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59737
+    }
+  },
+  "safari": {
+    "defaults": {
+      "icon": 58940,
+      "color": "#1B88CA"
+    },
+    "versions": {
+      "plain": 58940,
+      "line": 58938,
+      "plain-wordmark": 58939,
+      "line-wordmark": 58930
+    }
+  },
+  "salesforce": {
+    "defaults": {
+      "icon": 59860,
+      "color": "#00A1E0"
+    },
+    "versions": {
+      "plain": 59860
+    }
+  },
+  "sass": {
+    "defaults": {
+      "icon": 60363,
+      "color": "#CC6699"
+    },
+    "versions": {
+      "original": 60363
+    }
+  },
+  "scala": {
+    "defaults": {
+      "icon": 59739,
+      "color": "#DE3423"
+    },
+    "versions": {
+      "plain": 59739,
+      "plain-wordmark": 59738
+    }
+  },
+  "sdl": {
+    "defaults": {
+      "icon": 59993,
+      "color": "#173354"
+    },
+    "versions": {
+      "plain": 59993
+    }
+  },
+  "selenium": {
+    "defaults": {
+      "icon": 59972,
+      "color": "#CF0A2C"
+    },
+    "versions": {
+      "original": 59972
+    }
+  },
+  "sequelize": {
+    "defaults": {
+      "icon": 59898,
+      "color": "#3B4B72"
+    },
+    "versions": {
+      "plain": 59898,
+      "plain-wordmark": 59897
+    }
+  },
+  "shopware": {
+    "defaults": {
+      "icon": 59859,
+      "color": "#179EFF"
+    },
+    "versions": {
+      "original": 59859,
+      "original-wordmark": 59858
+    }
+  },
+  "shotgrid": {
+    "defaults": {
+      "icon": 59985,
+      "color": "#000000"
+    },
+    "versions": {
+      "plain": 59985,
+      "original-wordmark": 59984
+    }
+  },
+  "sketch": {
+    "defaults": {
+      "icon": 59725,
+      "color": "#FDAD00"
+    },
+    "versions": {
+      "line": 59725,
+      "line-wordmark": 59724
+    }
+  },
+  "slack": {
+    "defaults": {
+      "icon": 59673,
+      "color": "#2D333A"
+    },
+    "versions": {
+      "plain": 59673,
+      "plain-wordmark": 59672
+    }
+  },
+  "socketio": {
+    "defaults": {
+      "icon": 59699,
+      "color": "#010101"
+    },
+    "versions": {
+      "original": 59699,
+      "original-wordmark": 59698
+    }
+  },
+  "solidity": {
+    "defaults": {
+      "icon": 59967,
+      "color": "#383838"
+    },
+    "versions": {
+      "plain": 59967
+    }
+  },
+  "sourcetree": {
+    "defaults": {
+      "icon": 59912,
+      "color": "#205081"
+    },
+    "versions": {
+      "original": 59912,
+      "original-wordmark": 59913
+    }
+  },
+  "spring": {
+    "defaults": {
+      "icon": 59806,
+      "color": "#5FB832"
+    },
+    "versions": {
+      "plain": 59806,
+      "plain-wordmark": 59805
+    }
+  },
+  "spss": {
+    "defaults": {
+      "icon": 59847,
+      "color": "#CC1E4C"
+    },
+    "versions": {
+      "plain": 59847
+    }
+  },
+  "sqlalchemy": {
+    "defaults": {
+      "icon": 59776,
+      "color": "#333333"
+    },
+    "versions": {
+      "plain": 59776,
+      "original-wordmark": 59775
+    }
+  },
+  "sqlite": {
+    "defaults": {
+      "icon": 59954,
+      "color": "#0F80CC"
+    },
+    "versions": {
+      "plain": 59954,
+      "plain-wordmark": 59953
+    }
+  },
+  "ssh": {
+    "defaults": {
+      "icon": 59914,
+      "color": "#231F20"
+    },
+    "versions": {
+      "original": 59914,
+      "original-wordmark": 59915
+    }
+  },
+  "storybook": {
+    "defaults": {
+      "icon": 59649,
+      "color": "#FF4785"
+    },
+    "versions": {
+      "plain": 59649,
+      "plain-wordmark": 59648
+    }
+  },
+  "stylus": {
+    "defaults": {
+      "icon": 59874,
+      "color": "#333333"
+    },
+    "versions": {
+      "original": 59874
+    }
+  },
+  "subversion": {
+    "defaults": {
+      "icon": 59687,
+      "color": "#809CC8"
+    },
+    "versions": {
+      "original": 59687
+    }
+  },
+  "svelte": {
+    "defaults": {
+      "icon": 59669,
+      "color": "#FF3E00"
+    },
+    "versions": {
+      "plain": 59669,
+      "plain-wordmark": 59668
+    }
+  },
+  "swift": {
+    "defaults": {
+      "icon": 59892,
+      "color": "#F05138"
+    },
+    "versions": {
+      "plain": 59892,
+      "plain-wordmark": 59891
+    }
+  },
+  "symfony": {
+    "defaults": {
+      "icon": 58885,
+      "color": "#1A171B"
+    },
+    "versions": {
+      "original": 58885,
+      "original-wordmark": 58882
+    }
+  },
+  "tailwindcss": {
+    "defaults": {
+      "icon": 59871,
+      "color": "#2298BD"
+    },
+    "versions": {
+      "plain": 59871,
+      "original-wordmark": 59872
+    }
+  },
+  "tensorflow": {
+    "defaults": {
+      "icon": 59831,
+      "color": "#FF6F00"
+    },
+    "versions": {
+      "original": 59831,
+      "line": 59829,
+      "original-wordmark": 59830,
+      "line-wordmark": 59828
+    }
+  },
+  "terraform": {
+    "defaults": {
+      "icon": 60005,
+      "color": "#5C4EE5"
+    },
+    "versions": {
+      "plain": 60005,
+      "plain-wordmark": 60004
+    }
+  },
+  "thealgorithms": {
+    "defaults": {
+      "icon": 59804,
+      "color": "#00BCB4"
+    },
+    "versions": {
+      "plain": 59804,
+      "plain-wordmark": 59803
+    }
+  },
+  "threejs": {
+    "defaults": {
+      "icon": 59713,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59713,
+      "original-wordmark": 59712
+    }
+  },
+  "tomcat": {
+    "defaults": {
+      "icon": 59886,
+      "color": "#D1A41A"
+    },
+    "versions": {
+      "line": 59886,
+      "line-wordmark": 59885
+    }
+  },
+  "tortoisegit": {
+    "defaults": {
+      "icon": 59689,
+      "color": "#4A8FB5"
+    },
+    "versions": {
+      "plain": 59689,
+      "line": 59688
+    }
+  },
+  "towergit": {
+    "defaults": {
+      "icon": 59691,
+      "color": "#D18900"
+    },
+    "versions": {
+      "plain": 59691,
+      "plain-wordmark": 59690
+    }
+  },
+  "travis": {
+    "defaults": {
+      "icon": 60365,
+      "color": "#BB2031"
+    },
+    "versions": {
+      "plain": 60365,
+      "plain-wordmark": 60364
+    }
+  },
+  "trello": {
+    "defaults": {
+      "icon": 60367,
+      "color": "#23719F"
+    },
+    "versions": {
+      "plain": 60367,
+      "plain-wordmark": 60366
+    }
+  },
+  "twitter": {
+    "defaults": {
+      "icon": 59904,
+      "color": "#1DA1F2"
+    },
+    "versions": {
+      "original": 59904
+    }
+  },
+  "typescript": {
+    "defaults": {
+      "icon": 59899,
+      "color": "#007ACC"
+    },
+    "versions": {
+      "plain": 59899
+    }
+  },
+  "typo3": {
+    "defaults": {
+      "icon": 59753,
+      "color": "#F49700"
+    },
+    "versions": {
+      "plain": 59753,
+      "plain-wordmark": 59752
+    }
+  },
+  "ubuntu": {
+    "defaults": {
+      "icon": 60369,
+      "color": "#DD4814"
+    },
+    "versions": {
+      "plain": 60369,
+      "plain-wordmark": 60368
+    }
+  },
+  "unity": {
+    "defaults": {
+      "icon": 59693,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59693,
+      "original-wordmark": 59692
+    }
+  },
+  "unix": {
+    "defaults": {
+      "icon": 59862,
+      "color": "#4051B5"
+    },
+    "versions": {
+      "original": 59862
+    }
+  },
+  "unrealengine": {
+    "defaults": {
+      "icon": 59958,
+      "color": "#000000"
+    },
+    "versions": {
+      "original": 59958,
+      "original-wordmark": 59957
+    }
+  },
+  "uwsgi": {
+    "defaults": {
+      "icon": 59772,
+      "color": "#BAD05E"
+    },
+    "versions": {
+      "plain": 59772
+    }
+  },
+  "vagrant": {
+    "defaults": {
+      "icon": 59727,
+      "color": "#127EFF"
+    },
+    "versions": {
+      "plain": 59727,
+      "plain-wordmark": 59726
+    }
+  },
+  "vim": {
+    "defaults": {
+      "icon": 60403,
+      "color": "#179A33"
+    },
+    "versions": {
+      "plain": 60403
+    }
+  },
+  "visualstudio": {
+    "defaults": {
+      "icon": 59896,
+      "color": "#68217A"
+    },
+    "versions": {
+      "plain": 59896,
+      "plain-wordmark": 59895
+    }
+  },
+  "vscode": {
+    "defaults": {
+      "icon": 59866,
+      "color": "#3C99D4"
+    },
+    "versions": {
+      "plain": 59866,
+      "plain-wordmark": 59865
+    }
+  },
+  "vuejs": {
+    "defaults": {
+      "icon": 59890,
+      "color": "#41B883"
+    },
+    "versions": {
+      "plain": 59890,
+      "line": 59888,
+      "plain-wordmark": 59889,
+      "line-wordmark": 59887
+    }
+  },
+  "vuestorefront": {
+    "defaults": {
+      "icon": 59861,
+      "color": "#5ECF7B"
+    },
+    "versions": {
+      "plain": 59861
+    }
+  },
+  "vuetify": {
+    "defaults": {
+      "icon": 59991,
+      "color": "#1697F6"
+    },
+    "versions": {
+      "plain": 59991,
+      "line": 59992
+    }
+  },
+  "webflow": {
+    "defaults": {
+      "icon": 60006,
+      "color": "#4353FF"
+    },
+    "versions": {
+      "original": 60006
+    }
+  },
+  "weblate": {
+    "defaults": {
+      "icon": 59802,
+      "color": "#2ECCAA"
+    },
+    "versions": {
+      "plain": 59802,
+      "plain-wordmark": 59801
+    }
+  },
+  "webpack": {
+    "defaults": {
+      "icon": 59894,
+      "color": "#1C78C0"
+    },
+    "versions": {
+      "plain": 59894,
+      "plain-wordmark": 59893
+    }
+  },
+  "webstorm": {
+    "defaults": {
+      "icon": 59884,
+      "color": "#2788B5"
+    },
+    "versions": {
+      "plain": 59884,
+      "plain-wordmark": 59883
+    }
+  },
+  "windows8": {
+    "defaults": {
+      "icon": 60405,
+      "color": "#00ADEF"
+    },
+    "versions": {
+      "original": 60405,
+      "original-wordmark": 60404
+    }
+  },
+  "woocommerce": {
+    "defaults": {
+      "icon": 59751,
+      "color": "#7F54B3"
+    },
+    "versions": {
+      "plain": 59751,
+      "plain-wordmark": 59750
+    }
+  },
+  "wordpress": {
+    "defaults": {
+      "icon": 60414,
+      "color": "#494949"
+    },
+    "versions": {
+      "plain": 60414,
+      "plain-wordmark": 60413
+    }
+  },
+  "xamarin": {
+    "defaults": {
+      "icon": 59977,
+      "color": "#3498DB"
+    },
+    "versions": {
+      "original": 59977,
+      "original-wordmark": 59976
+    }
+  },
+  "xcode": {
+    "defaults": {
+      "icon": 59971,
+      "color": "#069CEC"
+    },
+    "versions": {
+      "plain": 59971
+    }
+  },
+  "xd": {
+    "defaults": {
+      "icon": 59771,
+      "color": "#DD80BC"
+    },
+    "versions": {
+      "plain": 59771,
+      "line": 59770
+    }
+  },
+  "yarn": {
+    "defaults": {
+      "icon": 59729,
+      "color": "#2C8EBB"
+    },
+    "versions": {
+      "plain": 59729,
+      "plain-wordmark": 59728
+    }
+  },
+  "yii": {
+    "defaults": {
+      "icon": 60418,
+      "color": "#0073BB"
+    },
+    "versions": {
+      "plain": 60418,
+      "plain-wordmark": 60417
+    }
+  },
+  "yunohost": {
+    "defaults": {
+      "icon": 59747,
+      "color": "#FFFFFF"
+    },
+    "versions": {
+      "plain": 59747
+    }
+  },
+  "zend": {
+    "defaults": {
+      "icon": 60420,
+      "color": "#68B604"
+    },
+    "versions": {
+      "plain": 60420,
+      "plain-wordmark": 60419
+    }
+  },
+  "zig": {
+    "defaults": {
+      "icon": 59833,
+      "color": "#F7A41D"
+    },
+    "versions": {
+      "original": 59833,
+      "plain-wordmark": 59832
+    }
+  }
+}

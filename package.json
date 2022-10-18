@@ -1,0 +1,30 @@
+{
+  "name": "devicon-api",
+  "version": "0.0.1",
+  "description": "API to change colors and size of Devicon icons.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunatic-fox/devicon-api.git"
+  },
+  "keywords": [
+    "api",
+    "devicon",
+    "icons",
+    "vercel"
+  ],
+  "author": "Josélio Júnior (Lunatic Fox)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lunatic-fox/devicon-api/issues"
+  },
+  "homepage": "https://github.com/lunatic-fox/devicon-api#readme",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "text-to-svg": "^3.1.5"
+  },
+  "devDependencies": {
+    "@types/text-to-svg": "^3.1.1"
+  }
+}

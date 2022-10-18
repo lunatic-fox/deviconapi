@@ -1,0 +1,13 @@
+{
+  "routes": [
+    {
+      "src": "/(api)?",
+      "methods": [ "GET" ],
+      "dest": "/api/index.js"
+    },
+    {
+      "src": "/(?!(api[?]|[?])).+?",
+      "dest": "/src/img/blank.svg"
+    }
+  ]
+}
