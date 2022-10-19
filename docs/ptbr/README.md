@@ -11,22 +11,22 @@
 </a>
 </div>
 
-&nbsp; Este projeto serve os ícones¹ Devicon v2.15.1 via API, dessa forma você pode editar a cor do ícone e o tamanho em tempo real.
+&emsp;Este projeto serve os ícones¹ Devicon v2.15.1 via API, dessa forma você pode editar a cor do ícone e o tamanho em tempo real.
 
 > 1. *Apenas ícones que podem ser convertidos para fonte, em outras palavras, apenas ícones simples monocromáticos.*
 
 ## Lista de conteúdos
 [**1. Visão geral**](#1-visão-geral)\
-&nbsp; &nbsp; [**1.1. Selecionando o ícone**](#11-selecionando-o-ícone)\
-&nbsp; &nbsp; [**1.2. Selecionando o tema ou a cor**](#12-selecionando-o-tema-ou-a-cor)\
-&nbsp; &nbsp; &nbsp; &nbsp; [**1.2.1. tema**](#121-tema)\
-&nbsp; &nbsp; &nbsp; &nbsp; [**1.2.2. cor**](#122-cor)\
-&nbsp; &nbsp; [**1.3. Selecionando a versão**](#13-selecionando-a-versão)\
-&nbsp; &nbsp; [**1.4. Redimensionando**](#14-redimensionando)\
+&emsp;[**1.1. Selecionando o ícone**](#11-selecionando-o-ícone)\
+&emsp;[**1.2. Selecionando o tema ou a cor**](#12-selecionando-o-tema-ou-a-cor)\
+&emsp;&emsp;[**1.2.1. tema**](#121-tema)\
+&emsp;&emsp;[**1.2.2. cor**](#122-cor)\
+&emsp;[**1.3. Selecionando a versão**](#13-selecionando-a-versão)\
+&emsp;[**1.4. Redimensionando**](#14-redimensionando)\
 [**2. Exemplos**](#2-exemplos)\
-&nbsp; &nbsp; [**2.1. Markdown**](#21-markdown)\
-&nbsp; &nbsp; [**2.2. HTML**](#22-html)\
-&nbsp; &nbsp; [**2.3. Resultados**](#23-resultados)\
+&emsp;[**2.1. Markdown**](#21-markdown)\
+&emsp;[**2.2. HTML**](#22-html)\
+&emsp;[**2.3. Resultados**](#23-resultados)\
 [**3. Dependências**](#3-dependências)
 
 <div align="right">
@@ -35,7 +35,7 @@
 </div>
 
 ## 1. Visão geral
-&nbsp; Use a URL base abaixo para acessar a API.
+&emsp;Use a URL base abaixo para acessar a API.
 ```https
 https://deviconapi.vercel.app/?
 ```
@@ -54,7 +54,7 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.1. Selecionando o ícone
-&nbsp; Apenas adicione o nome do ícone após a URL base. Se nenhum outro parâmetro é adicionado será retornado o ícone padrão na sua cor padrão com 128×128px de tamanho.
+&emsp;Apenas adicione o nome do ícone após a URL base. Se nenhum outro parâmetro é adicionado será retornado o ícone padrão na sua cor padrão com 128×128px de tamanho.
 
 ***Exemplo***
 ```https
@@ -69,8 +69,8 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2. Selecionando o tema ou a cor
-&nbsp; Você pode escolher a cor do ícone adicionando o parâmetro `theme` ou `color`, usando `&` após o nome do ícone.\
-&nbsp; É importante notar que o parâmetro `theme` tem prioridade sobre `color`, então se ambos estão presentes apenas `theme` irá funcionar.
+&emsp;Você pode escolher a cor do ícone adicionando o parâmetro `theme` ou `color`, usando `&` após o nome do ícone.\
+&emsp;É importante notar que o parâmetro `theme` tem prioridade sobre `color`, então se ambos estão presentes apenas `theme` irá funcionar.
 
 <div align="right">
 
@@ -78,17 +78,17 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.1. tema
-&nbsp; Este parâmetro recebe `light` ou `dark` como valores. Portanto, se você estiver usando o ícone dentro de um esquema claro, selecionando `light` preencherá o ícone com `#000000`. Pelo contrário, se o ícone estiver em um esquema escuro, selecionando `dark` o ícone será preenchido com `#ffffff`.
+&emsp;Este parâmetro recebe `light` ou `dark` como valores. Portanto, se você estiver usando o ícone dentro de um esquema claro, selecionando `light` preencherá o ícone com `#000000`. Pelo contrário, se o ícone estiver em um esquema escuro, selecionando `dark` o ícone será preenchido com `#ffffff`.
 
 
 ***Exemplo usando `dark`***\
-&nbsp; Ícone Next.js preenchido em `#ffffff`
+&emsp;Ícone Next.js preenchido em `#ffffff`
 ```https
 <URL>/?nextjs&theme=dark
 ```
 
 ***Exemplo usando `light`***\
-&nbsp; Ícone Next.js preenchido em `#000000`
+&emsp;Ícone Next.js preenchido em `#000000`
 ```https
 <URL>/?nextjs&theme=light
 ```
@@ -99,23 +99,23 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.2. cor
-&nbsp; Este parâmetro recebe qualquer cor hexadecimal e cores CSS como valor.
+&emsp;Este parâmetro recebe qualquer cor hexadecimal e cores CSS como valor.
 
 <div align="center">
 
 **Note que cores hexadecimais não podem ter `#` na requisição!**
 </div>
 
-&nbsp; Cores hexadecimais podem estar em qualquer dos seguintes padrões: `2ff`, `22ffff`, `abc5`, `aabbcc55`.
+&emsp;Cores hexadecimais podem estar em qualquer dos seguintes padrões: `2ff`, `22ffff`, `abc5`, `aabbcc55`.
 
 ***Exemplo usando hexadecimal***\
-&nbsp; Ícone JavaScript preenchido em `#ff5656`
+&emsp;Ícone JavaScript preenchido em `#ff5656`
 ```https
 <URL>/?javascript&color=ff5656
 ```
 
 ***Exemplo usando cor CSS***\
-&nbsp; Ícone JavaScript preenchido em `#ff0000`
+&emsp;Ícone JavaScript preenchido em `#ff0000`
 ```https
 <URL>/?javascript&color=red
 ```
@@ -126,9 +126,9 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.3. Selecionando a versão
-&nbsp; Às vezes, ícones estão em diferentes versões e você pode especificar qual você quiser passando um valor de versão para o parâmetro `version`.
+&emsp;Às vezes, ícones estão em diferentes versões e você pode especificar qual você quiser passando um valor de versão para o parâmetro `version`.
 
-&nbsp; Possíveis valores de versão são: `original`, `plain`, `line`,`original-wordmark`, `plain-wordmark` e `line-wordmark`.
+&emsp;Possíveis valores de versão são: `original`, `plain`, `line`,`original-wordmark`, `plain-wordmark` e `line-wordmark`.
 
 <div align="center">
 
@@ -137,7 +137,7 @@ https://deviconapi.vercel.app/?
 </div>
 
 ***Exemplo usando `line`***\
-&nbsp; Ícone Apache na versão `line` onde o padrão é `plain`.
+&emsp;Ícone Apache na versão `line` onde o padrão é `plain`.
 ```https
 <URL>/?apache&version=line
 ```
@@ -148,10 +148,10 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.4. Redimensionando
-&nbsp; Se você está usando Markdown você pode redimensionar o ícone sem adicionar um elemento `img` com o atributo `width`, por exemplo. Apenas adicione algum valor para o parâmetro `size` e já pode seguir adiante.
+&emsp;Se você está usando Markdown você pode redimensionar o ícone sem adicionar um elemento `img` com o atributo `width`, por exemplo. Apenas adicione algum valor para o parâmetro `size` e já pode seguir adiante.
 
 ***Exemplo usando 50px***\
-&nbsp; Ícone Node.js em 50×50px.
+&emsp;Ícone Node.js em 50×50px.
 ```https
 <URL>/?nodejs&size=50
 ```

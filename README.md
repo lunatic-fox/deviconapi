@@ -12,22 +12,22 @@
 </div>
 
 
-&nbsp; This project serves Devicon v2.15.1 icons¹ via API, that way you can edit the icon color and size on the fly.
+&emsp;This project serves Devicon v2.15.1 icons¹ via API, that way you can edit the icon color and size on the fly.
 
 > 1. *Only icons that can be converted to font, in other words, only monochromatic plain icons.*
 
 ## List of contents
 [**1. Overview**](#overview)\
-&nbsp; &nbsp; [**1.1. Selecting icon**](#11-selecting-icon)\
-&nbsp; &nbsp; [**1.2. Selecting theme or color**](#12-selecting-theme-or-color)\
-&nbsp; &nbsp; &nbsp; &nbsp; [**1.2.1. theme**](#121-theme)\
-&nbsp; &nbsp; &nbsp; &nbsp; [**1.2.2. color**](#122-color)\
-&nbsp; &nbsp; [**1.3. Selecting version**](#13-selecting-version)\
-&nbsp; &nbsp; [**1.4. Resizing**](#14-resizing)\
+&emsp;[**1.1. Selecting icon**](#11-selecting-icon)\
+&emsp;[**1.2. Selecting theme or color**](#12-selecting-theme-or-color)\
+&emsp;&emsp;[**1.2.1. theme**](#121-theme)\
+&emsp;&emsp;[**1.2.2. color**](#122-color)\
+&emsp;[**1.3. Selecting version**](#13-selecting-version)\
+&emsp;[**1.4. Resizing**](#14-resizing)\
 [**2. Examples**](#2-examples)\
-&nbsp; &nbsp; [**2.1. Markdown**](#21-markdown)\
-&nbsp; &nbsp; [**2.2. HTML**](#22-html)\
-&nbsp; &nbsp; [**2.3. Results**](#23-results)\
+&emsp;[**2.1. Markdown**](#21-markdown)\
+&emsp;[**2.2. HTML**](#22-html)\
+&emsp;[**2.3. Results**](#23-results)\
 [**3. Dependencies**](#3-dependencies)
 
 <div align="right">
@@ -36,7 +36,7 @@
 </div>
 
 ## 1. Overview
-&nbsp; Use the base URL below to access the API.
+&emsp;Use the base URL below to access the API.
 ```https
 https://deviconapi.vercel.app/?
 ```
@@ -55,7 +55,7 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.1. Selecting icon
-&nbsp; Just add the icon name after the base URL. If no other parameter is added it will return the default icon in its default color with 128×128px of size.
+&emsp;Just add the icon name after the base URL. If no other parameter is added it will return the default icon in its default color with 128×128px of size.
 
 ***Example***
 ```https
@@ -70,8 +70,8 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2. Selecting theme or color
-&nbsp; You can choose the color of the icon by adding the `theme` or `color` parameter, using `&` after the icon name.\
-&nbsp; Is important to note that `theme` has priority over `color` parameter, so if both are present only `theme` will work.
+&emsp;You can choose the color of the icon by adding the `theme` or `color` parameter, using `&` after the icon name.\
+&emsp;Is important to note that `theme` has priority over `color` parameter, so if both are present only `theme` will work.
 
 <div align="right">
 
@@ -79,16 +79,16 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.1. theme
-&nbsp; This parameter receives `light` or `dark` as value. Therefore, if you are using the icon into a light scheme, selecting `light` will fill the icon with `#000000`. Otherwise, if the icon are in a dark scheme, by selecting `dark` the icon will be filled with `#ffffff`.
+&emsp;This parameter receives `light` or `dark` as value. Therefore, if you are using the icon into a light scheme, selecting `light` will fill the icon with `#000000`. Otherwise, if the icon are in a dark scheme, by selecting `dark` the icon will be filled with `#ffffff`.
 
 ***Example using `dark`***\
-&nbsp; Next.js icon filled in `#ffffff`
+&emsp;Next.js icon filled in `#ffffff`
 ```https
 <URL>/?nextjs&theme=dark
 ```
 
 ***Example using `light`***\
-&nbsp; Next.js icon filled in `#000000`
+&emsp;Next.js icon filled in `#000000`
 ```https
 <URL>/?nextjs&theme=light
 ```
@@ -99,23 +99,23 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.2. color
-&nbsp; This parameter receives any hexadecimal color and CSS colors as value.
+&emsp;This parameter receives any hexadecimal color and CSS colors as value.
 
 <div align="center">
 
 **Note that hexadecimal colors can not have `#` on the request!**
 </div>
 
-&nbsp; Hexadecimal colors can be in any of the following patterns: `2ff`, `22ffff`, `abc5`, `aabbcc55`.
+&emsp;Hexadecimal colors can be in any of the following patterns: `2ff`, `22ffff`, `abc5`, `aabbcc55`.
 
 ***Example using hexadecimal***\
-&nbsp; JavaScript icon filled in `#ff5656`
+&emsp;JavaScript icon filled in `#ff5656`
 ```https
 <URL>/?javascript&color=ff5656
 ```
 
 ***Example using CSS color***\
-&nbsp; JavaScript icon filled in `#ff0000`
+&emsp;JavaScript icon filled in `#ff0000`
 ```https
 <URL>/?javascript&color=red
 ```
@@ -126,9 +126,9 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.3. Selecting version
-&nbsp; Sometimes, icons are in different versions and you can specify which one you want by passing a version value to `version` parameter.
+&emsp;Sometimes, icons are in different versions and you can specify which one you want by passing a version value to `version` parameter.
 
-&nbsp; Possible version values are: `original`, `plain`, `line`,`original-wordmark`, `plain-wordmark` and `line-wordmark`.
+&emsp;Possible version values are: `original`, `plain`, `line`,`original-wordmark`, `plain-wordmark` and `line-wordmark`.
 
 <div align="center">
 
@@ -137,7 +137,7 @@ https://deviconapi.vercel.app/?
 </div>
 
 ***Example using `line`***\
-&nbsp; Apache icon in `line` version where default is `plain`.
+&emsp;Apache icon in `line` version where default is `plain`.
 ```https
 <URL>/?apache&version=line
 ```
@@ -148,10 +148,10 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.4. Resizing
-&nbsp; If you are using Markdown you can resize the icon without add an `img` element with `width` attribute, for instance. Just add some value to the `size` parameter and you are ready to go.
+&emsp;If you are using Markdown you can resize the icon without add an `img` element with `width` attribute, for instance. Just add some value to the `size` parameter and you are ready to go.
 
 ***Example using 50px***\
-&nbsp; Node.js icon in 50×50px.
+&emsp;Node.js icon in 50×50px.
 ```https
 <URL>/?nodejs&size=50
 ```

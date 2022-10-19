@@ -1,8 +1,8 @@
 {
   "name": "devicon-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "API to change colors and size of Devicon icons.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {},
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "text-to-svg": "^3.1.5"
   },
   "devDependencies": {
-    "@types/text-to-svg": "^3.1.1"
+    "@types/text-to-svg": "^3.1.1",
+    "@vercel/node": "^2.5.26"
   }
 }

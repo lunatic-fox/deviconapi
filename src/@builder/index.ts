@@ -12,15 +12,14 @@ type IconVersions =
   | 'plain-wordmark'
   | 'line-wordmark';
 
-type SVGBuilder = (query: {
-  [k: string]: '';
-  color: string;
-  theme?: 'dark' | 'light';
-  version?: IconVersions;
-  size?: number
-}) => Promise<string>;
+export type Query = {
+  color: string,
+  theme: 'dark' | 'light',
+  version: IconVersions,
+  size: number
+};
 
-type IconsObj = {
+export type IconsObj = {
   [k: string]: {
     defaults: {
       icon: number;
@@ -28,4 +27,4 @@ type IconsObj = {
     };
     versions: IconVersions;
   };
-}
+};

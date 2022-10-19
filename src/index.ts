@@ -4,13 +4,14 @@
  @license MIT
 *//***/
 
-const fs = require('fs');
-const path = require('path');
-const textToSVG = require('text-to-svg')
-  .loadSync(path.join(__dirname, './font/devicon.ttf'));
+import fs from 'fs';
+import path from 'path';
+import TextToSVG from 'text-to-svg';
+import { IconsObj, Query } from './@builder';
 
-/** @type {SVGBuilder} */
-const SVGBuilder = async query => {
+const textToSVG = TextToSVG.loadSync(path.join(__dirname, './font/devicon.ttf'));
+
+const SVGBuilder = async (query: Query) => {
   const versionPriority = [
     'original',
     'plain',
@@ -19,9 +20,8 @@ const SVGBuilder = async query => {
     'plain-wordmark',
     'line-wordmark'
   ];
-  
-  /** @type {IconsObj} */
-  const iconsObj = JSON.parse(fs.readFileSync(path.join(__dirname, './data/data.json'), 'utf8'));
+
+  const iconsObj: IconsObj = JSON.parse(fs.readFileSync(path.join(__dirname, './data/index.json'), 'utf8'));
 
   const iconName = Object.keys(query)
     .filter(e => ![
@@ -53,6 +53,6 @@ const SVGBuilder = async query => {
     });
   }
   return `<svg xmlns="http://www.w3.org/2000/svg"></svg>`;
-};
+}
 
-module.exports = SVGBuilder;
+export default SVGBuilder;

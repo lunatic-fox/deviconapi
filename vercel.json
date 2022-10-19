@@ -3,7 +3,7 @@
     {
       "src": "/(api)?",
       "methods": [ "GET" ],
-      "dest": "/api/index.js"
+      "dest": "/api/index.ts"
     },
     {
       "src": "/(?!(api[?]|[?])).+?",
