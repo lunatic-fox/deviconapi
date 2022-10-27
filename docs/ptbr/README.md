@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Devicon API
+# Devicon API ![](https://deviconapi.vercel.app/?devicon&size=40)
 
 <a href="../../README.md">
   <img src="https://shields.io/badge/English-000dff">
@@ -11,7 +11,7 @@
 </a>
 </div>
 
-&emsp;Este projeto serve os ícones¹ Devicon v2.15.1 via API, dessa forma você pode editar a cor do ícone e o tamanho em tempo real.
+&emsp;Este projeto serve os ícones¹ [Devicon](https://github.com/devicons/devicon) v2.15.1 via API, dessa forma você pode editar a cor do ícone e o tamanho em tempo real.
 
 > 1. *Apenas ícones que podem ser convertidos para fonte, em outras palavras, apenas ícones simples monocromáticos.*
 
@@ -78,8 +78,28 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.1. tema
-&emsp;Este parâmetro recebe `light` ou `dark` como valores. Portanto, se você estiver usando o ícone dentro de um esquema claro, selecionando `light` preencherá o ícone com `#000000`. Pelo contrário, se o ícone estiver em um esquema escuro, selecionando `dark` o ícone será preenchido com `#ffffff`.
+&emsp;Este parâmetro recebe `light` ou `dark` como valores. 
 
+&emsp;No GitHub markdown você deverá usar uma lógica ao redor. Veja o exemplo abaixo.
+
+***Exemplo***
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
+  <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+</picture>
+```
+
+***Resultado***
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
+    <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+  </picture>
+</div>
+
+---
+&emsp;Um esquema de cor escuro é definido em `source.media` e `srcset` aponta para um ícone com tema escuro `#ffffff`. Se `source.media` é falso, então a `img` interna será mostrada no lugar e `src` deverá apontar para um ícone com tema claro `#000000`.
 
 ***Exemplo usando `dark`***\
 &emsp;Ícone Next.js preenchido em `#ffffff`

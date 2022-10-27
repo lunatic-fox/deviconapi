@@ -1,7 +1,7 @@
 
 <div align="center">
 
-# Devicon API
+# Devicon API ![](https://deviconapi.vercel.app/?devicon&size=40)
 
 <a href="#">
   <img src="https://shields.io/badge/English-000dff">
@@ -12,7 +12,7 @@
 </div>
 
 
-&emsp;This project serves Devicon v2.15.1 icons¹ via API, that way you can edit the icon color and size on the fly.
+&emsp;This project serves [Devicon](https://github.com/devicons/devicon) v2.15.1 icons¹ via API, that way you can edit the icon color and size on the fly.
 
 > 1. *Only icons that can be converted to font, in other words, only monochromatic plain icons.*
 
@@ -79,7 +79,29 @@ https://deviconapi.vercel.app/?
 </div>
 
 ### 1.2.1. theme
-&emsp;This parameter receives `light` or `dark` as value. Therefore, if you are using the icon into a light scheme, selecting `light` will fill the icon with `#000000`. Otherwise, if the icon are in a dark scheme, by selecting `dark` the icon will be filled with `#ffffff`.
+&emsp;This parameter receives `light` or `dark` as value. 
+
+&emsp;In GitHub markdown you should use a wrapping logic. See the example below.
+
+***Example***
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
+  <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+</picture>
+```
+
+***Result***
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
+    <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+  </picture>
+</div>
+
+---
+
+&emsp;A dark color scheme is defined in `source.media` and `srcset` points to a dark themed icon `#ffffff`. If `source.media` is false, then the inner `img` will be shown instead and `src` should be pointing to a light themed icon `#000000`.
 
 ***Example using `dark`***\
 &emsp;Next.js icon filled in `#ffffff`
