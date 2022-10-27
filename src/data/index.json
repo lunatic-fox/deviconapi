@@ -598,11 +598,12 @@
   },
   "dotnet": {
     "defaults": {
-      "icon": 59091
+      "icon": 59091,
+      "color": "#1384C8"
     },
     "versions": {
-      "net-plain-wordmark": 59091,
-      "net-plain": 59092
+      "plain-wordmark": 59091,
+      "plain": 59092
     }
   },
   "dotnetcore": {
