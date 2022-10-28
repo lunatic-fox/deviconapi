@@ -20,7 +20,6 @@ body:
       label: API parameter
       description: If your feature request is related to some API parameter, consider using this list below to specify.
       options:
-        - none
         - icon name
         - theme
         - color
@@ -32,8 +31,8 @@ body:
     attributes:
       label: Problem to be solved
       description: Provide a description of what you want to see improved.
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     id: solution
@@ -46,3 +45,4 @@ body:
     attributes:
       label: Additional information
       description: Is there anything else you want to share about this feature request?
+      value: This issue closes NONE
