@@ -11,6 +11,16 @@
 </a>
 </div>
 
+---
+<div align="center">
+
+### [Devicon API - Interface](https://lunaticfox.vercel.app/deviconApi)
+Uma página de interface para selecionar os ícones. 
+> *Ainda totalmente em inglês.*
+</div>
+
+---
+
 &emsp;Este projeto serve os ícones¹ [Devicon](https://github.com/devicons/devicon) v2.15.1 via API, dessa forma você pode editar a cor do ícone e o tamanho em tempo real.
 
 > 1. *Apenas ícones que podem ser convertidos para fonte, em outras palavras, apenas ícones simples monocromáticos.*
