@@ -46,4 +46,3 @@ body:
     attributes:
       label: Additional information
       description: Is there anything else you want to share about this feature request?
-      value: This issue closes NONE
