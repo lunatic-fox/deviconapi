@@ -1,0 +1,49 @@
+name: Feature Request
+description: File a feature request
+title: >
+  [Feature Request] - 
+labels:
+  - enhancement
+body:
+  - type: checkboxes
+    id: isoriginal
+    attributes:
+      label: Original issue
+      description: Have you searched through the issues and didn't find a solution to this problem?
+      options:
+        - label: Confirm
+          required: true
+
+  - type: dropdown
+    id: parameter
+    attributes:
+      label: API parameter
+      description: If your feature request is related to some API parameter, consider using this list below to specify.
+      options:
+        - none
+        - icon name
+        - theme
+        - color
+        - version
+        - size
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to be solved
+      description: Provide a description of what you want to see improved.
+      validations:
+        required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Possible solution
+      description: If have an idea of how to solve the problem, please describe it below.
+
+  - type: textarea
+    id: extrainfo
+    attributes:
+      label: Additional information
+      description: Is there anything else you want to share about this feature request?
+      value: This issue closes NONE
