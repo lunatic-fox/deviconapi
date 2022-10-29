@@ -596,13 +596,14 @@
       "line-wordmark": 58904
     }
   },
-  "dot": {
+  "dotnet": {
     "defaults": {
-      "icon": 59091
+      "icon": 59091,
+      "color": "#1384C8"
     },
     "versions": {
-      "net-plain-wordmark": 59091,
-      "net-plain": 59092
+      "plain-wordmark": 59091,
+      "plain": 59092
     }
   },
   "dotnetcore": {
@@ -1484,11 +1485,10 @@
   },
   "mocha": {
     "defaults": {
-      "icon": 59905,
+      "icon": 59745,
       "color": "#8D6748"
     },
     "versions": {
-      "": 59905,
       "plain": 59745
     }
   },

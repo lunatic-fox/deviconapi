@@ -238,6 +238,7 @@ https://deviconapi.vercel.app/?
 ## 3. Dependências
   * [**axios**](https://www.npmjs.com/package/axios)
   * [**text-to-svg**](https://www.npmjs.com/package/text-to-svg)
+  * [**ts-node**](https://www.npmjs.com/package/ts-node)
 
 <div align="center">
 

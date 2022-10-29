@@ -60,7 +60,7 @@
 * **django**: `plain`, `plain-wordmark`
 * **docker**: `plain`, `plain-wordmark`
 * **doctrine**: `plain`, `line`, `plain-wordmark`, `line-wordmark`
-* **dot**: `net-plain-wordmark`, `net-plain`
+* **dotnet**: `plain-wordmark`, `plain`
 * **dotnetcore**: `plain`
 * **dropwizard**: `plain`
 * **drupal**: `plain`, `plain-wordmark`
@@ -278,9 +278,8 @@
 * **zend**: `plain`, `plain-wordmark`
 * **zig**: `original`, `plain-wordmark`
 
-
 <div align="center">
 
 **Baseado em [Devicon](https://github.com/devicons/devicon) e distribuído por [Vercel](https://vercel.com/)**\
-**Feito com ❤ por [Josélio Júnior (Lunatic Fox)](https://github.com/lunatic-fox)**
+**Feito com ❤**
 </div>
