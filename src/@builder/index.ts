@@ -4,7 +4,7 @@
  @license MIT
 *//***/
 
-type IconVersions =
+export type IconVersions =
     'original'
   | 'plain'
   | 'line'

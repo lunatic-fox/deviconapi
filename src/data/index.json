@@ -1485,11 +1485,10 @@
   },
   "mocha": {
     "defaults": {
-      "icon": 59905,
+      "icon": 59745,
       "color": "#8D6748"
     },
     "versions": {
-      "": 59905,
       "plain": 59745
     }
   },

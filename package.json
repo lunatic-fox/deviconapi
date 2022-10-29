@@ -1,6 +1,6 @@
 {
   "name": "devicon-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "API to change colors and size of Devicon icons.",
   "main": "index.ts",
   "scripts": {},
