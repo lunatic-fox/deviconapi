@@ -6,7 +6,7 @@ export type DeviconsArray = [{
 }];
 
 export type IconsObj = {
-  [k: string]: {
+  [technologyName: string]: {
     defaults: {
       icon: number;
       color: string;

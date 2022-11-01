@@ -19,12 +19,4 @@ export type Query = {
   size: number
 };
 
-export type IconsObj = {
-  [k: string]: {
-    defaults: {
-      icon: number;
-      color: string;
-    };
-    versions: IconVersions;
-  };
-};
+export { IconsObj } from '../../generator/@generator'

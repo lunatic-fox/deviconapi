@@ -20,7 +20,8 @@
 &emsp;[**1.1. Selecionando o ícone**](#11-selecionando-o-ícone)\
 &emsp;[**1.2. Selecionando o tema ou a cor**](#12-selecionando-o-tema-ou-a-cor)\
 &emsp;&emsp;[**1.2.1. tema**](#121-tema)\
-&emsp;&emsp;[**1.2.2. cor**](#122-cor)\
+&emsp;&emsp;[**1.2.2. tema por *endpoint***](#122-tema-por-endpoint)\
+&emsp;&emsp;[**1.2.3. cor**](#123-cor)\
 &emsp;[**1.3. Selecionando a versão**](#13-selecionando-a-versão)\
 &emsp;[**1.4. Redimensionando**](#14-redimensionando)\
 [**2. Exemplos**](#2-exemplos)\
@@ -118,7 +119,19 @@ https://deviconapi.vercel.app/?
 [*voltar ao topo*](#devicon-api)
 </div>
 
-### 1.2.2. cor
+### 1.2.2. tema por *endpoint*
+&emsp;Você também pode escolher um ícone com tema usando *endpoints*, e em seguida, usando `#gh-dark-mode-only` e `#gh-light-mode-only` para mudar automaticamente.
+
+***Exemplo***\
+&emsp;Ícone next.js em GitHub markdown
+```markdown
+![Next.js dark](<URL>/icons/nextjs/original-dark.svg#gh-dark-mode-only)
+![Next.js light](<URL>/icons/nextjs/original-light.svg#gh-light-mode-only)
+```
+
+&emsp;Você pode ver todas as versões suportadas nesta **[lista](./list-of-icons-and-versions/README.md)**.
+
+### 1.2.3. cor
 &emsp;Este parâmetro recebe qualquer cor hexadecimal e cores CSS como valor.
 
 <div align="center">
@@ -243,5 +256,5 @@ https://deviconapi.vercel.app/?
 <div align="center">
 
 **Baseado em [Devicon](https://github.com/devicons/devicon) e distribuído por [Vercel](https://vercel.com/)**\
-**Feito com ❤ por [Josélio Júnior (Lunatic Fox)](https://github.com/lunatic-fox)**
+**Feito com ❤**
 </div>

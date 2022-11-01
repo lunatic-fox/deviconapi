@@ -5,9 +5,10 @@
 *//***/
 
 import axios from 'axios';
-import dataGenerator from './generators/dataGenerator';
-import listOfIconsAndVersionsGenerator from './generators/listOfIconsAndVersionsGenerator';
+import data from './generators/data';
+import listOfIconsAndVersions from './generators/listOfIconsAndVersions';
 import { DeviconsArray, IconsObj } from './@generator';
+import themedIcons from './generators/themedIcons';
 
 const baseURL = `https://cdn.jsdelivr.net/gh/devicons/devicon@master/`;
 
@@ -77,6 +78,7 @@ const generator = async () => {
 
 generator()
   .then(iconsObj => {
-    dataGenerator(iconsObj);
-    listOfIconsAndVersionsGenerator(iconsObj);  
+    data(iconsObj);
+    listOfIconsAndVersions(iconsObj);
+    themedIcons();
   });

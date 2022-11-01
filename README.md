@@ -21,7 +21,8 @@
 &emsp;[**1.1. Selecting icon**](#11-selecting-icon)\
 &emsp;[**1.2. Selecting theme or color**](#12-selecting-theme-or-color)\
 &emsp;&emsp;[**1.2.1. theme**](#121-theme)\
-&emsp;&emsp;[**1.2.2. color**](#122-color)\
+&emsp;&emsp;[**1.2.2. theme by endpoint**](#122-theme-by-endpoint)\
+&emsp;&emsp;[**1.2.3. color**](#123-color)\
 &emsp;[**1.3. Selecting version**](#13-selecting-version)\
 &emsp;[**1.4. Resizing**](#14-resizing)\
 [**2. Examples**](#2-examples)\
@@ -120,7 +121,24 @@ https://deviconapi.vercel.app/?
 [*back to top*](#devicon-api)
 </div>
 
-### 1.2.2. color
+### 1.2.2. theme by endpoint
+&emsp;You can also choose themed icons by using endpoints, then using `#gh-dark-mode-only` and `#gh-light-mode-only` to change automatically.
+
+***Example***\
+&emsp;Next.js icon in GitHub markdown
+```markdown
+![Next.js dark](<URL>/icons/nextjs/original-dark.svg#gh-dark-mode-only)
+![Next.js light](<URL>/icons/nextjs/original-light.svg#gh-light-mode-only)
+```
+
+&emsp;You can see all supported versions in this **[list](./docs/list-of-icons-and-versions/README.md)**.
+
+<div align="right">
+
+[*back to top*](#devicon-api)
+</div>
+
+### 1.2.3. color
 &emsp;This parameter receives any hexadecimal color and CSS colors as value.
 
 <div align="center">
@@ -245,5 +263,5 @@ https://deviconapi.vercel.app/?
 <div align="center">
 
 **Based in [Devicon](https://github.com/devicons/devicon) and powered by [Vercel](https://vercel.com/)**\
-**Made with ❤ by [Josélio Júnior (Lunatic Fox)](https://github.com/lunatic-fox)**
+**Made with ❤**
 </div>
