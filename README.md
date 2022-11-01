@@ -127,8 +127,8 @@ https://deviconapi.vercel.app/?
 ***Example***\
 &emsp;Next.js icon in GitHub markdown
 ```markdown
-![Next.js dark](<URL>/icons/nextjs/original-dark.svg#gh-dark-mode-only)
-![Next.js light](<URL>/icons/nextjs/original-light.svg#gh-light-mode-only)
+![Next.js dark](https://github.com/lunatic-fox/deviconapi/blob/nextjs/original-dark.svg#gh-dark-mode-only)
+![Next.js light](https://github.com/lunatic-fox/deviconapi/blob/nextjs/original-light.svg#gh-light-mode-only)
 ```
 
 &emsp;You can see all supported versions in this **[list](./docs/list-of-icons-and-versions/README.md)**.
