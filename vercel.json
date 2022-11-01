@@ -6,7 +6,7 @@
       "dest": "/api/index.ts"
     },
     {
-      "src": "/(?!(api[?]|[?])).+?",
+      "src": "/(?!(icons|api[?]|[?])).+?",
       "dest": "/src/img/blank.svg"
     }
   ]
