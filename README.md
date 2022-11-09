@@ -10,6 +10,14 @@
 </a>
 </div>
 
+---
+<div align="center">
+
+### [Devicon API - Interface](https://lunaticfox.vercel.app/deviconApi)
+An interface page to select the icons.
+</div>
+
+---
 
 &emsp;This project serves [Devicon](https://github.com/devicons/devicon) v2.15.1 icons¹ via API, that way you can edit the icon color and size on the fly.
 
@@ -238,7 +246,6 @@ https://deviconapi.vercel.app/
 ## 3. Dependencies
   * [**axios**](https://www.npmjs.com/package/axios)
   * [**text-to-svg**](https://www.npmjs.com/package/text-to-svg)
-  * [**ts-node**](https://www.npmjs.com/package/ts-node)
 
 <div align="center">
 
