@@ -1,7 +1,6 @@
-
 <div align="center">
 
-# Devicon API ![](https://deviconapi.vercel.app/?devicon&size=40)
+# Devicon API v1.1.0 ![](https://deviconapi.vercel.app/?devicon&size=40)
 
 <a href="#">
   <img src="https://shields.io/badge/English-000dff">
@@ -46,13 +45,12 @@ An interface page to select the icons.
 ## 1. Overview
 &emsp;Use the base URL below to access the API.
 ```https
-https://deviconapi.vercel.app/?
+https://deviconapi.vercel.app/
 ```
-> *You can use `/api?` instead of `/?` at the end of the link if you want.*
 
 <div align="center">
 
-**Through this documentation this base URL will be referred as `<URL>/?`**
+**Through this documentation this base URL will be referred as `<URL>/`**
 </div>
 
 [***Jump to examples >>***](#2-examples)
@@ -67,9 +65,9 @@ https://deviconapi.vercel.app/?
 
 ***Example***
 ```https
-<URL>/?csharp
-<URL>/?cplusplus
-<URL>/?javascript
+<URL>/csharp
+<URL>/cplusplus
+<URL>/javascript
 ```
 
 <div align="right">
@@ -94,16 +92,16 @@ https://deviconapi.vercel.app/?
 ***Example***
 ```html
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
-  <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+  <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/devicon?theme=dark&size=50">
+  <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/devicon?theme=light&size=50">
 </picture>
 ```
 
 ***Result***
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/?devicon&theme=dark&size=50">
-    <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/?devicon&theme=light&size=50">
+    <source media="(prefers-color-scheme: dark)" srcset="https://deviconapi.vercel.app/devicon?theme=dark&size=50">
+    <img alt="Devicon" title="Devicon" src="https://deviconapi.vercel.app/devicon?theme=light&size=50">
   </picture>
 </div>
 
@@ -114,13 +112,13 @@ https://deviconapi.vercel.app/?
 ***Example using `dark`***\
 &emsp;Next.js icon filled in `#ffffff`
 ```https
-<URL>/?nextjs&theme=dark
+<URL>/nextjs?theme=dark
 ```
 
 ***Example using `light`***\
 &emsp;Next.js icon filled in `#000000`
 ```https
-<URL>/?nextjs&theme=light
+<URL>/nextjs?theme=light
 ```
 
 <div align="right">
@@ -141,13 +139,13 @@ https://deviconapi.vercel.app/?
 ***Example using hexadecimal***\
 &emsp;JavaScript icon filled in `#ff5656`
 ```https
-<URL>/?javascript&color=ff5656
+<URL>/javascript?color=ff5656
 ```
 
 ***Example using CSS color***\
 &emsp;JavaScript icon filled in `#ff0000`
 ```https
-<URL>/?javascript&color=red
+<URL>/javascript?color=red
 ```
 
 <div align="right">
@@ -169,7 +167,7 @@ https://deviconapi.vercel.app/?
 ***Example using `line`***\
 &emsp;Apache icon in `line` version where default is `plain`.
 ```https
-<URL>/?apache&version=line
+<URL>/apache?version=line
 ```
 
 <div align="right">
@@ -183,7 +181,7 @@ https://deviconapi.vercel.app/?
 ***Example using 50px***\
 &emsp;Node.js icon in 50×50px.
 ```https
-<URL>/?nodejs&size=50
+<URL>/nodejs?size=50
 ```
 
 <div align="right">
@@ -195,15 +193,15 @@ https://deviconapi.vercel.app/?
 ### 2.1. Markdown
 #### nodejs, dark theme, 80px
 ```markdown
-![](https://deviconapi.vercel.app/?nodejs&theme=dark&size=80)
+![](https://deviconapi.vercel.app/nodejs?theme=dark&size=80)
 ```
 #### go, 180px, #f0f
 ```markdown
-![](https://deviconapi.vercel.app/?go&size=180&color=f0f)
+![](https://deviconapi.vercel.app/go?size=180&color=f0f)
 ```
 #### go, original-wordmark, 180px
 ```markdown
-![](https://deviconapi.vercel.app/?go&version=original-wordmark&size=180)
+![](https://deviconapi.vercel.app/go?version=original-wordmark&size=180)
 ```
 
 <div align="right">
@@ -214,15 +212,15 @@ https://deviconapi.vercel.app/?
 ### 2.2. HTML
 #### nodejs, dark theme, 80px
 ```html
-<img src="https://deviconapi.vercel.app/?nodejs&theme=dark&size=80"/>
+<img src="https://deviconapi.vercel.app/nodejs?theme=dark&size=80"/>
 ```
 #### go, 180px, #f0f
 ```html
-<img src="https://deviconapi.vercel.app/?go&size=180&color=f0f"/>
+<img src="https://deviconapi.vercel.app/go?size=180&color=f0f"/>
 ```
 #### go, original-wordmark, 180px
 ```html
-<img src="https://deviconapi.vercel.app/?go&version=original-wordmark&size=180"/>
+<img src="https://deviconapi.vercel.app/go?version=original-wordmark&size=180"/>
 ```
 
 <div align="right">
@@ -232,13 +230,13 @@ https://deviconapi.vercel.app/?
 
 ### 2.3. Results
 #### nodejs, dark theme, 80px
-![nodejs](https://deviconapi.vercel.app/?nodejs&theme=dark&size=80)
+![nodejs](https://deviconapi.vercel.app/nodejs?theme=dark&size=80)
 
 #### go, 180px, #f0f
-![go](https://deviconapi.vercel.app/?go&size=180&color=f0f)
+![go](https://deviconapi.vercel.app/go?size=180&color=f0f)
 
 #### go, original-wordmark, 180px
-![go](https://deviconapi.vercel.app/?go&version=original-wordmark&size=180)
+![go](https://deviconapi.vercel.app/go?version=original-wordmark&size=180)
 
 <div align="right">
 

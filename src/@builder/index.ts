@@ -13,6 +13,7 @@ export type IconVersions =
   | 'line-wordmark';
 
 export type Query = {
+  icon?: string,
   color: string,
   theme: 'dark' | 'light',
   version: IconVersions,
