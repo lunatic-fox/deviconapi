@@ -23,13 +23,16 @@ const SVGBuilder = async (query: Query) => {
 
   const iconsObj: IconsObj = JSON.parse(fs.readFileSync(path.join(__dirname, './data/index.json'), 'utf8'));
 
-  const iconName = Object.keys(query)
-    .filter(e => ![
-      'color',
-      'theme',
-      'version',
-      'size'
-    ].some(f => e === f))[0];
+  const iconName = query.icon ?
+      query.icon
+    : Object.keys(query)
+      .filter(e => ![
+        'icon',
+        'color',
+        'theme',
+        'version',
+        'size'
+      ].includes(e))[0];
 
   if (iconsObj[iconName]) {
     const icon = versionPriority.includes(query.version) ?

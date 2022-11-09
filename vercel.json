@@ -1,13 +1,12 @@
 {
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(api)?",
-      "methods": [ "GET" ],
-      "dest": "/api/index.ts"
+      "source": "/",
+      "destination": "/api"
     },
     {
-      "src": "/(?!(api[?]|[?])).+?",
-      "dest": "/src/img/blank.svg"
+      "source": "/:icon",
+      "destination": "/api"
     }
   ]
 }

@@ -9,6 +9,7 @@ import { Query } from '../src/@builder';
 import SVGBuilder from '../src';
 
 module.exports = async (req: { query: Query }, res: VercelResponse) => {
+
   SVGBuilder(req.query)
     .then(svg => {
       res.setHeader('Content-Type', 'image/svg+xml');
