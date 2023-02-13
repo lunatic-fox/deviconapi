@@ -14,8 +14,7 @@
 <div align="center">
 
 ### [Devicon API - Interface](https://lunaticfox.vercel.app/deviconApi)
-Uma página de interface para selecionar os ícones. 
-> *Ainda totalmente em inglês.*
+Uma página de interface para selecionar os ícones.
 </div>
 
 ---
@@ -195,13 +194,13 @@ https://deviconapi.vercel.app/
 ```markdown
 ![](https://deviconapi.vercel.app/nodejs?theme=dark&size=80)
 ```
-#### go, 180px, #f0f
+#### github, 180px, #f0f
 ```markdown
-![](https://deviconapi.vercel.app/go?size=180&color=f0f)
+![](https://deviconapi.vercel.app/github?size=180&color=f0f)
 ```
-#### go, original-wordmark, 180px
+#### github, original-wordmark, 180px
 ```markdown
-![](https://deviconapi.vercel.app/go?version=original-wordmark&size=180)
+![](https://deviconapi.vercel.app/github?version=original-wordmark&size=180)
 ```
 
 <div align="right">
@@ -214,13 +213,13 @@ https://deviconapi.vercel.app/
 ```html
 <img src="https://deviconapi.vercel.app/nodejs?theme=dark&size=80"/>
 ```
-#### go, 180px, #f0f
+#### github, 180px, #f0f
 ```html
-<img src="https://deviconapi.vercel.app/go?size=180&color=f0f"/>
+<img src="https://deviconapi.vercel.app/github?size=180&color=f0f"/>
 ```
-#### go, original-wordmark, 180px
+#### github, original-wordmark, 180px
 ```html
-<img src="https://deviconapi.vercel.app/go?version=original-wordmark&size=180"/>
+<img src="https://deviconapi.vercel.app/github?version=original-wordmark&size=180"/>
 ```
 
 <div align="right">
@@ -229,14 +228,80 @@ https://deviconapi.vercel.app/
 </div>
 
 ### 2.3. Resultados
-#### nodejs, tema escuro, 80px
-![nodejs](https://deviconapi.vercel.app/nodejs?theme=dark&size=80)
 
-#### go, 180px, #f0f
-![go](https://deviconapi.vercel.app/go?size=180&color=f0f)
+<table>
+  <thead>
+    <th>Descrição</th>
+    <th>Resultado</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>nodejs</b><br>
+        <b>tema (<i>theme</i>):</b> escuro (<i>dark</i>)<br>
+        <b>tamanho (<i>size</i>):</b> 80px
+      </td>
+      <td align="center">
+        <img title="Node.js icon" alt="nodejs" src="https://deviconapi.vercel.app/nodejs?theme=dark&size=80">
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2>
+        <i>https://deviconapi.vercel.app/nodejs?theme=dark&size=80</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-#### go, original-wordmark, 180px
-![go](https://deviconapi.vercel.app/go?version=original-wordmark&size=180)
+<table>
+  <thead>
+    <th>Descrição</th>
+    <th>Resultado</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>github</b><br>
+        <b>cor (<i>color</i>):</b> #2ea043<br>
+        <b>tamanho (<i>size</i>):</b> 180px
+      </td>
+      <td align="center">
+        <img title="GitHub icon" alt="github" src="https://deviconapi.vercel.app/github?color=2ea043&size=180">
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2>
+        <i>https://deviconapi.vercel.app/github?color=2ea043&size=180</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <th>Descrição</th>
+    <th>Resultado</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <b>github</b><br>
+        <b>versão (<i>version</i>):</b> original-wordmark<br>
+        <b>cor (<i>color</i>):</b> #1f6feb<br>
+        <b>tamanho (<i>size</i>):</b> 180px
+      </td>
+      <td align="center">
+        <img title="GitHub (wordmark) icon" alt="github" src="https://deviconapi.vercel.app/github?version=original-wordmark&color=1f6feb&size=180">
+      </td>
+    </tr>
+    <tr>
+      <td colspan=2>
+        <i>https://deviconapi.vercel.app/github?version=original-wordmark&color=1f6feb&size=180</i>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 <div align="right">
 
